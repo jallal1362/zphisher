@@ -7,7 +7,7 @@ if [[ $(uname -o) == *'Android'* ]];then
 else
 	export ZPHISHER_ROOT="/opt/zphisher"
 fi
-
+    
 if [[ $1 == '-h' || $1 == 'help' ]]; then
 	echo "To run Zphisher type \`zphisher\` in your cmd"
 	echo
