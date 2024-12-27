@@ -20,7 +20,7 @@ if [[ ! $check_container == $CONTAINER ]]; then
 		--interactive --tty \
 		--volume ${MOUNT_LOCATION}:/zphisher/auth/ \
 		--network host \
-		--name "${CONTAINER}" \
+		--name "${CONTAINER}" \. 
 		"${IMAGE}"
 fi
 
